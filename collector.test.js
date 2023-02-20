@@ -1,5 +1,5 @@
 const coinCollector = require('./collector');
-const coins = require('./coins');
+const coins = require('./coins').default;
 
 describe('coinCollector', () => {
   it('is a function', () => {
